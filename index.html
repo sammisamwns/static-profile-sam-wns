@@ -5,15 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuel Priyatam Dash - Profile</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header, footer { background: #1f2937; color: white; text-align: center; padding: 1rem 0; }
-    main { max-width: 900px; margin: auto; padding: 2rem; background: white; }
-    img.profile { width: 150px; border-radius: 50%; display: block; margin: auto; }
-    h1, h2, h3 { color: #1f2937; }
-    section { margin-bottom: 2rem; }
-    a { color: #ffffff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    ul { list-style-type: disc; margin-left: 2rem; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header, footer {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+    }
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 1rem auto;
+    }
+    h1, h2, h3 {
+      color: #1f2937;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 2rem;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      body {
+        font-size: 16px;
+      }
+      main {
+        padding: 1rem;
+      }
+      img.profile {
+        width: 100px;
+      }
+      ul {
+        margin-left: 1rem;
+      }
+      section {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.25rem;
+      }
+      h3 {
+        font-size: 1.1rem;
+      }
+      footer p {
+        font-size: 0.9rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -22,9 +89,11 @@
     <p>Backend Developer | AI/ML Enthusiast | Cloud Infrastructure Specialist</p>
     <p>📍 Bhubaneswar, India</p>
     <img src="image.png" alt="Profile Picture" class="profile">
-    <p><a href="https://www.linkedin.com/in/sammisam8888/" target="_blank">LinkedIn</a> | 
-       <a href="https://github.com/Sammisam8888" target="_blank">GitHub</a> | 
-       <a href="mailto:samuelpriyatamxd@gmail.com">Email</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/sammisam8888/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Sammisam8888" target="_blank">GitHub</a> |
+      <a href="mailto:samuelpriyatamxd@gmail.com">Email</a>
+    </p>
   </header>
 
   <main>
@@ -95,7 +164,7 @@
 
     <section>
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:samuelpriyatamxd@gmail.com">samuelpriyatamxd@gmail.com</a></p>
+      <p>Email: samuelpriyatamxd@gmail.com</p>
       <p>Phone: +91 9337903728</p>
       <p>Location: Bhubaneswar, India</p>
     </section>
