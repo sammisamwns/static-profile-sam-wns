@@ -1,0 +1,14 @@
+Utility functions, often called "utils", are simple reusable JavaScript functions designed to handle common operations like string formatting, array manipulation, or mathematical calculations.
+Example: A function to capitalize the first letter of a word, or to sum values in an array.
+
+Modular JavaScript refers to breaking your code into separate files or modules using the export and import syntax introduced in ES6. This helps in organizing the code better and making it reusable across different files.
+
+Exporting functions allows a module to expose specific functionality.
+Example:
+export function greet(name) { return "Hello " + name; }
+
+Importing allows another file to access the exported function or variable.
+Example:
+import { greet } from './utils.js';
+
+Using modules improves code maintainability, readability, and scalability, especially in larger projects.
